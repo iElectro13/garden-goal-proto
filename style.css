@@ -39,6 +39,7 @@ nav {
 
 .item.active {
     background: #6951eb;
+    border: 3px solid #F9F2F5;
 }
 
 .item.active:hover {
@@ -87,3 +88,11 @@ i {
 
 }
 
+hr {
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    border-top: 2px solid #F9F2F5;
+    width: 65%;
+    margin: auto;
+}

@@ -18,26 +18,31 @@ h1 {
 }
 
 nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr;
     background: #b4a4fc;
     min-height: 100%;
 }
 
 .item {
-    padding: 1rem;
+    padding: 1.5rem 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 0.5rem;
+}
 
+.item:hover {
+    background: #c7bbfd;
 }
 
 .item.active {
     background: #6951eb;
+}
+
+.item.active:hover {
+    background: #5a40ee;
 }
 
 .item-logo {
@@ -82,8 +87,3 @@ i {
 
 }
 
-
-.secondary {
-    background: #6951eb;
-    padding: 1rem;
-}
